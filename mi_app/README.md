@@ -1,17 +1,41 @@
-# mi_app
+# App de Compatibilidad en Flutter
 
-A new Flutter project.
+Esta es una aplicación móvil desarrollada en Flutter que permite calcular un porcentaje de compatibilidad entre dos personas a partir de sus nombres. El usuario ingresa dos nombres diferentes y la app genera un porcentaje de compatibilidad de manera sencilla, rápida y visual.
 
-## Getting Started
+## Descripción del proyecto
 
-This project is a starting point for a Flutter application.
+La aplicación está pensada como una app divertida e interactiva en la que el usuario puede escribir su nombre y el nombre de otra persona para conocer qué tan compatibles son. Después de ingresar ambos nombres, la app muestra un porcentaje de compatibilidad en pantalla.
 
-A few resources to get you started if this is your first Flutter project:
+Este proyecto fue desarrollado como práctica para reforzar conocimientos básicos de Flutter, manejo de interfaces, entrada de datos por parte del usuario y lógica simple dentro de una aplicación móvil.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Funcionalidades principales
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Ingreso de dos nombres diferentes.
+- Validación para evitar campos vacíos.
+- Cálculo automático de un porcentaje de compatibilidad.
+- Visualización clara del resultado.
+- Interfaz sencilla, amigable y fácil de usar.
+
+## Tecnologías utilizadas
+
+- Flutter
+- Dart
+- Visual Studio Code
+- Android Studio / Emulador móvil
+
+## ¿Cómo funciona?
+
+1. El usuario abre la aplicación.
+2. Escribe el primer nombre.
+3. Escribe el segundo nombre.
+4. Presiona el botón para calcular la compatibilidad.
+5. La app muestra un porcentaje de compatibilidad entre ambos nombres.
+
+## Ejemplo de uso
+
+```text
+Nombre 1: Miriam
+Nombre 2: Diego
+
+Resultado:
+Compatibilidad: 87%
